@@ -80,25 +80,25 @@ function Header() {
               </g>
             </svg>
           </div>
-          <nav className="navigation mt-3">
-            <ul className="navigation__list gap-[30px] hidden lg:flex">
-              <li className="navigation__item text-[primaryColor] cursor-pointer relative m-3 before:transition-all  hover:before:w-full before:w-0 before:bg-primaryColor before:bottom-[-2px] before:h-[0.1rem] before:left-0 before:absolute">
+          <nav className="mt-3">
+            <ul className="gap-[30px] hidden lg:flex">
+              <li className="text-[primaryColor] cursor-pointer relative m-3 before:transition-all  hover:before:w-full before:w-0 before:bg-primaryColor before:bottom-[-2px] before:h-[0.1rem] before:left-0 before:absolute">
                 <a href="/" className="navigation__link font-[600] box-border">
                   Our Services
                 </a>
               </li>
-              <li className="navigation__item text-[primaryColor] cursor-pointer relative m-3 transition-all hover:before:w-full before:w-0 before:bg-primaryColor before:bottom-[-2px] before:h-[0.1rem] before:left-0 before:absolute">
+              <li className="text-[primaryColor] cursor-pointer relative m-3 transition-all hover:before:w-full before:w-0 before:bg-primaryColor before:bottom-[-2px] before:h-[0.1rem] before:left-0 before:absolute">
                 <a href="/" className="navigation__link font-[600] box-border">
                   Nearshore
                 </a>
               </li>
-              <li className="navigation__item text-[primaryColor] cursor-pointer relative m-3 transition-all hover:before:w-full before:w-0 before:bg-primaryColor before:bottom-[-2px] before:h-[0.1rem] before:left-0 before:absolute">
+              <li className="text-[primaryColor] cursor-pointer relative m-3 transition-all hover:before:w-full before:w-0 before:bg-primaryColor before:bottom-[-2px] before:h-[0.1rem] before:left-0 before:absolute">
                 <a href="/" className="navigation__link font-[600] box-border">
                   Career
                 </a>
               </li>
-              <li className="navigation__item text-[primaryColor] cursor-pointer relative m-3 transition-all hover:before:w-full before:w-0 before:bg-primaryColor before:bottom-[-2px] before:h-[0.1rem] before:left-0 before:absolute">
-                <a href="/" className="navigation__link font-[600] box-border">
+              <li className="text-[primaryColor] cursor-pointer relative m-3 transition-all hover:before:w-full before:w-0 before:bg-primaryColor before:bottom-[-2px] before:h-[0.1rem] before:left-0 before:absolute">
+                <a href="/" className="font-[600] box-border">
                   Contact
                 </a>
               </li>
