@@ -79,7 +79,7 @@ function Footer() {
           </svg>
         </div>
         <div className="sm:grid md:grid-cols-12 gap-4 relative">
-          <div className="footer__description col-span-6">
+          <div className="col-span-6">
             <p className="text-sm mt-5 pr-5 text-left ">
               Where creativity meets quality in every project we undertake. At
               Delatech, we are a team of dedicated professionals who are driven
@@ -92,9 +92,9 @@ function Footer() {
               our work.
             </p>
           </div>
-          <div className="footer-links col-4 col-span-3">
-            <h2 className="footer__title mt-5">Links</h2>
-            <div className="footer__link-list w-full">
+          <div className="col-4 col-span-3">
+            <h2 className="mt-5">Links</h2>
+            <div className="w-full">
               <span>
                 <a href="/links" aria-label="Read more about company links">
                   Home
@@ -112,7 +112,7 @@ function Footer() {
               </span>
             </div>
           </div>
-          <div className="footer-contactus col-span-3">
+          <div className="col-span-3">
             <button className="contact-button">
               <div data-target="career">
                 <a
@@ -120,7 +120,7 @@ function Footer() {
                   aria-label="Read more about company career"
                   className="active"
                 >
-                  <p className="copy-text">Career</p>
+                  <p>Career</p>
                 </a>
               </div>
               <span>
@@ -163,7 +163,7 @@ function Footer() {
                 </svg>
               </span>
             </button>
-            <div className="footer-contact icons flex gap-3 flex-wrap my-10">
+            <div className="flex gap-3 flex-wrap my-10">
               <span className="contact-icon">
                 <a
                   href="https://al.linkedin.com/company/dela-tech"
