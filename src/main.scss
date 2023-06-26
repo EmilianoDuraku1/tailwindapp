@@ -1,0 +1,32 @@
+.slick-dots {
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.slick-dots li {
+  margin: 0 25px;
+}
+
+.slick-dots li button:before {
+  background: #14d1a4;
+  border-radius: 5px;
+  color: transparent;
+  height: 5px;
+  width: 60px;
+}
+
+.stage-wrapper::before {
+  background: linear-gradient(180deg, transparent, #000 120%);
+  content: "";
+  height: 50%;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+

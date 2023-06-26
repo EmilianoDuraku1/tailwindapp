@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .headline {
+        @apply w-max cursor-pointer text-3xl text-center transition-all font-bold mx-auto mb-3;
+
+        &:hover {
+            @apply underline text-primaryColor;
+        }
+    }
+
+    .container {
+        @apply mx-auto px-5;
+    }
+
+    .contact-button {
+        @apply text-center bg-none border-b-2 flex justify-between mb-10 px-2 w-full py-4;
+
+        &:hover {
+            @apply bg-white rounded text-black;
+        }
+    }
+
+    .contact-icon {
+        @apply flex rounded-full border-2 h-[44px] p-2 w-[45px];
+
+        &:hover {
+            @apply bg-white;
+
+            svg {
+                fill: #14d1a4;
+            }
+
+            path {
+                stroke: #14d1a4;
+            }
+        }
+    }
+
+    body {
+        @apply after:opacity-0;
+    }
+
+    .nav-opened {
+        @apply  after:transition-opacity overflow-hidden;
+    }
+
+    .nav-opened::after {
+        @apply bg-black fixed ease-in-out duration-500 left-0 w-screen opacity-80 h-screen top-[70px];
+    }
+
+    .nav-opened .burger-menu {
+        @apply left-10 transition-all ease-in-out duration-300;
+    }
+
+    .burger-icon.open {
+        .burger {
+            @apply hidden;
+        }
+
+        .close {
+            @apply block;
+        }
+    }
+}
