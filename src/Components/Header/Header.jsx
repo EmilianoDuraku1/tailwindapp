@@ -1,14 +1,16 @@
 import React from "react";
 import BurgerMenu from "./BurgerMenu";
+import logo from "../../Assets/tailwind.jpeg";
 
 function Header() {
   return (
-    <header className="bg-white fixed top-0 w-full z-10">
+    <header className="fixed bg-white top-0 w-full z-10">
       <div className="container">
         <div className="flex justify-between">
           <div className="logo max-w-[200px] ">
-            <svg
-              className="h-[70px] w-full"
+            <img className="h-[70px] w-full" src={logo} alt="" />
+            {/* <svg
+              className=""
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
               y="0px"
@@ -78,7 +80,7 @@ function Header() {
                   r="15.047"
                 ></circle>
               </g>
-            </svg>
+            </svg> */}
           </div>
           <nav className="mt-3">
             <ul className="gap-[30px] hidden lg:flex">
